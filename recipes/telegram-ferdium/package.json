@@ -1,0 +1,10 @@
+{
+  "id": "telegram-ferdium",
+  "name": "Telegram Ferdium",
+  "version": "0.1.0",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://web.telegram.org/k/",
+    "hasNotificationSound": true
+  }
+}
