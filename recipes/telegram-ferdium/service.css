@@ -1,0 +1,25 @@
+/*
+ * Telegram Ferdium V1
+ *
+ * Baseline mode is intentionally non-destructive.
+ * We prove recipe injection and required Telegram capabilities first.
+ * Surface removal is added only after live Web K DOM inspection and
+ * CAPABILITY_MATRIX regression checks.
+ */
+
+html.telegram-ferdium {
+  --telegram-ferdium-recipe-loaded: 1;
+}
+
+#page-chats {
+  max-width: 100vw !important;
+}
+
+:root {
+  --messages-container-width: unset;
+}
+
+/*
+ * DISTRACTING / ESCAPE selectors will be added incrementally.
+ * Every selector requires a note/test update in CAPABILITY_MATRIX.md.
+ */
